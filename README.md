@@ -31,4 +31,3 @@ Automation integrated with CI/CD pipeline (theory).
 
 # Author
 Your Name : Uzair Shamsi
-QA Portfolio for Software Testing Project
