@@ -1,0 +1,65 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Atlassian project),Custom field (Atlassian project status),Custom field (Comments),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Design file),Custom field (Designs ready),Custom field (Documents),Custom field (Effort),Custom field (Goals),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Idea short description),Custom field (Impact),Custom field (Insights),Custom field (Linked items),Custom field (Project start),Custom field (Project target),Custom field (Rank),Custom field (Roadmap),Custom field (Score),Custom field (Start date),Custom field (State),Custom field (Team),Status Category,Status Category Changed
+Cart UI shows incorrect quantity after add multiple items,MDP-15,10014,Idea,Parking lot,MDP,My discovery project,product_discovery,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,Medium,,,,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,24/Mar/26 3:10 AM,24/Mar/26 3:10 AM,,,,0,"*steps to reproduce:*
+
+# Open the product page 
+# Add different products 4 to 5
+# Go to cart page
+
+
+*Expected results* : UI shows correct quantity of products and correct bill
+*Actual result*:  Cart UI shows only 1 item in cart but shows all 5 products bill.
+*Impact*  :
+
+Bad user experience
+
+Mismatch between UI and billing
+
+Can reduce user trust",,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001b:,,,,,,To Do,24/Mar/26 3:10 AM
+user data does not save when Internet disconnect during submission,MDP-14,10013,Idea,Impact,MDP,My discovery project,product_discovery,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,Highest,,,,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,24/Mar/26 2:52 AM,24/Mar/26 3:11 AM,,,,0,"steps to reproduce:
+
+# open form page
+# fill all required info
+# disconnect internet before form submitting
+# click submit
+
+expected Result: system should show error or retry option
+
+Actual resulr : all data is gone and form page is reset
+
+impact : Poor user experience and data loss",,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00013:,,,,,,In Progress,24/Mar/26 3:11 AM
+User still logged in after session time-out,MDP-13,10012,Idea,Parking lot,MDP,My discovery project,product_discovery,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,High,,,,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,24/Mar/26 2:37 AM,24/Mar/26 2:37 AM,,,,0,"Steps: 
+
+login into the application
+
+stay inactive for 15-20 mints
+
+try navigating on ther page
+
+expected results : user should be automatically log out after session time-out
+
+Actual results: user still logged in and can access page without re-login",,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0000v:,,,,,,To Do,24/Mar/26 2:37 AM
+Login fails with valid credentials,MDP-12,10011,Idea,Done,MDP,My discovery project,product_discovery,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,High,,,,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,23/Mar/26 4:03 AM,24/Mar/26 3:10 AM,,,,0,"User is unable to login even after entering correct email and password.
+
+*Steps to Reproduce:*
+
+# Go to login page
+# Enter valid email & password
+# Click on login button
+
+*Expected Result:*
+User should be logged in successfully
+
+*Actual Result:*
+Error message appears: “Invalid credentials”",,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0000n:,,,,,,Done,24/Mar/26 3:10 AM
+Login button is not respond on click,MDP-11,10010,Idea,Discovery,MDP,My discovery project,product_discovery,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,High,,,,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,23/Mar/26 4:01 AM,24/Mar/26 2:22 AM,24/Mar/26 2:39 AM,,,0,"Login button is not respond when click
+steps to reproduce : 
+
+open login page
+
+enter email and password
+
+click login button
+
+expected results: User should be logged in and land on dashboard
+
+Actual result  : when clicked on login button nothing happens",,Uzair Shamsi,712020:978103d2-6838-4e16-95ef-2a9fd33d4ade,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0000f:,,,,,,In Progress,24/Mar/26 2:22 AM
