@@ -30,4 +30,4 @@ CI/CD
 Automation integrated with CI/CD pipeline (theory).
 
 # Author
-Your Name : Uzair Shamsi
+Muhammad Uzair Shamsi
